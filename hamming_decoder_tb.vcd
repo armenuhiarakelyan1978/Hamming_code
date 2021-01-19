@@ -1,0 +1,50 @@
+$date
+	Tue Jan 19 15:38:28 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module hamming_decoder_tb $end
+$var wire 1 ! err $end
+$var wire 16 " data_out1 [15:0] $end
+$var reg 21 # data_in1 [20:0] $end
+$scope module hamm_dec $end
+$var wire 21 $ data_in1 [20:0] $end
+$var reg 5 % S [4:0] $end
+$var reg 21 & data_in [0:20] $end
+$var reg 16 ' data_out [0:15] $end
+$var reg 16 ( data_out1 [15:0] $end
+$var reg 1 ! err $end
+$var reg 5 ) k [4:0] $end
+$var reg 5 * pout [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+x!
+$end
+#15
+b100011000111101 "
+b100011000111101 (
+1!
+b101 )
+b1110 *
+b100011000111101 '
+b1011 %
+b100110000110001011101 &
+b100110000110001011101 #
+b100110000110001011101 $
+#1015
